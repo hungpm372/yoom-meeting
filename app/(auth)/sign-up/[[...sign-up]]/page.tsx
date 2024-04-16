@@ -2,9 +2,9 @@ import { SignUp } from '@clerk/nextjs'
 
 const SignUpPage = () => {
   return (
-    <main className='flex h-screen w-full items-center justify-center'>
+    <section className='flex h-screen w-full items-center justify-center py-32'>
       <SignUp />
-    </main>
+    </section>
   )
 }
 
